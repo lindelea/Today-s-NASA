@@ -9,9 +9,9 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController {
+class HistoryDetailViewController: UIViewController {
     
-    var historyPhotos: HistoryPhotos = HistoryPhotos.find()
+    var historyPhoto: Photo!
     
     @IBOutlet weak var photo: UIImageView!
     @IBOutlet weak var content: UILabel!
@@ -20,18 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        loadData()
-    }
-    
-    func loadData() {
-        Photo.fetchPhotoInfo { (photo) in
-            if let photo = photo {
-                DispatchQueue.main.async {
-                    self.updateUI(photo: photo)
-                    self.storeData(photo: photo)
-                }
-            }
-        }
+        updateUI(photo: historyPhoto)
     }
     
     func updateUI(photo: Photo) {
@@ -53,7 +42,6 @@ class ViewController: UIViewController {
                 }
             }
         }
-        
         self.navigationItem.title = photo.title
         self.content.text = photo.content
         if let copyright = photo.copyright {
@@ -61,17 +49,6 @@ class ViewController: UIViewController {
         } else {
             self.copyright.isHidden = true
         }
-    }
-    
-    func storeData(photo: Photo) {
-        if historyPhotos.photos.contains(where: { (historyPhoto) -> Bool in
-            return photo.date == historyPhoto.date
-        }) {
-            return
-        }
-        
-        historyPhotos.photos.insert(photo, at: 0)
-        historyPhotos.store()
     }
 }
 

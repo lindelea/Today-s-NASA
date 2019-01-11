@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		F2D7EE6921E836C90009AAB8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE6821E836C90009AAB8 /* Models.swift */; };
 		F2D7EE6B21E839810009AAB8 /* Supports.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE6A21E839810009AAB8 /* Supports.swift */; };
+		F2D7EE6D21E858F80009AAB8 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE6C21E858F80009AAB8 /* HistoryViewController.swift */; };
+		F2D7EE6F21E8591C0009AAB8 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE6E21E8591C0009AAB8 /* HistoryCell.swift */; };
+		F2D7EE7121E86C800009AAB8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE7021E86C800009AAB8 /* NotificationService.swift */; };
+		F2D7EE7321E8775E0009AAB8 /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE7221E8775E0009AAB8 /* HistoryDetailViewController.swift */; };
 		F2E7578621E7411A00A2AEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7578521E7411A00A2AEA3 /* AppDelegate.swift */; };
 		F2E7578821E7411A00A2AEA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7578721E7411A00A2AEA3 /* ViewController.swift */; };
 		F2E7578B21E7411A00A2AEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E7578921E7411A00A2AEA3 /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 /* Begin PBXFileReference section */
 		F2D7EE6821E836C90009AAB8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F2D7EE6A21E839810009AAB8 /* Supports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supports.swift; sourceTree = "<group>"; };
+		F2D7EE6C21E858F80009AAB8 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F2D7EE6E21E8591C0009AAB8 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		F2D7EE7021E86C800009AAB8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F2D7EE7221E8775E0009AAB8 /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
 		F2E7578221E7411A00A2AEA3 /* Today's NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today's NASA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E7578521E7411A00A2AEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E7578721E7411A00A2AEA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				F2E7579121E7411C00A2AEA3 /* Info.plist */,
 				F2D7EE6821E836C90009AAB8 /* Models.swift */,
 				F2D7EE6A21E839810009AAB8 /* Supports.swift */,
+				F2D7EE6C21E858F80009AAB8 /* HistoryViewController.swift */,
+				F2D7EE6E21E8591C0009AAB8 /* HistoryCell.swift */,
+				F2D7EE7021E86C800009AAB8 /* NotificationService.swift */,
+				F2D7EE7221E8775E0009AAB8 /* HistoryDetailViewController.swift */,
 			);
 			path = "Today's NASA";
 			sourceTree = "<group>";
@@ -141,9 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D7EE7321E8775E0009AAB8 /* HistoryDetailViewController.swift in Sources */,
+				F2D7EE6F21E8591C0009AAB8 /* HistoryCell.swift in Sources */,
 				F2D7EE6921E836C90009AAB8 /* Models.swift in Sources */,
+				F2D7EE7121E86C800009AAB8 /* NotificationService.swift in Sources */,
 				F2D7EE6B21E839810009AAB8 /* Supports.swift in Sources */,
 				F2E7578821E7411A00A2AEA3 /* ViewController.swift in Sources */,
+				F2D7EE6D21E858F80009AAB8 /* HistoryViewController.swift in Sources */,
 				F2E7578621E7411A00A2AEA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
