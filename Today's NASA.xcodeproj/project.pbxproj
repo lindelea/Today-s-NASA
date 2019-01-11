@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2D7EE6921E836C90009AAB8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE6821E836C90009AAB8 /* Models.swift */; };
+		F2D7EE6B21E839810009AAB8 /* Supports.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7EE6A21E839810009AAB8 /* Supports.swift */; };
 		F2E7578621E7411A00A2AEA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7578521E7411A00A2AEA3 /* AppDelegate.swift */; };
 		F2E7578821E7411A00A2AEA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E7578721E7411A00A2AEA3 /* ViewController.swift */; };
 		F2E7578B21E7411A00A2AEA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E7578921E7411A00A2AEA3 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2D7EE6821E836C90009AAB8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F2D7EE6A21E839810009AAB8 /* Supports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supports.swift; sourceTree = "<group>"; };
 		F2E7578221E7411A00A2AEA3 /* Today's NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today's NASA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E7578521E7411A00A2AEA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E7578721E7411A00A2AEA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				F2E7578C21E7411C00A2AEA3 /* Assets.xcassets */,
 				F2E7578E21E7411C00A2AEA3 /* LaunchScreen.storyboard */,
 				F2E7579121E7411C00A2AEA3 /* Info.plist */,
+				F2D7EE6821E836C90009AAB8 /* Models.swift */,
+				F2D7EE6A21E839810009AAB8 /* Supports.swift */,
 			);
 			path = "Today's NASA";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D7EE6921E836C90009AAB8 /* Models.swift in Sources */,
+				F2D7EE6B21E839810009AAB8 /* Supports.swift in Sources */,
 				F2E7578821E7411A00A2AEA3 /* ViewController.swift in Sources */,
 				F2E7578621E7411A00A2AEA3 /* AppDelegate.swift in Sources */,
 			);
